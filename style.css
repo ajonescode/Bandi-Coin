@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap');
+        
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Encode Sans Expanded, sans-serif;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    z-index: 10;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.containerbox{
+    -moz-box-pack: justify;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 24px;
+    max-width: 1100px;
+}
+
+.section-1{
+    display: flex;
+    flex-direction: column;
+    -moz-box-pack: center;
+    place-content: center;
+    top: 80px;
+    width: 100vw;
+    background-color :rgb(224, 84, 93);
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: 110vw;
+    position: absolute;
+    bottom: 98px;
+    z-index: 1;
+}
+
+/* .section-2{
+    display: flex;
+    flex-direction: column;
+    -moz-box-pack: center;
+    place-content: center;
+    top: 80px;
+    width: 100vw;
+    background-color :rgb(84, 224, 103);
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: 110vw;
+    position: sticky;
+    bottom: 98px;
+    z-index: 1;
+} */
